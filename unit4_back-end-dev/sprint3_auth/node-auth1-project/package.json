@@ -1,0 +1,25 @@
+{
+	"name": "node-auth1-project",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "https://github.com/mcolsen/node-auth1-project.git",
+	"author": "Maria Olsen (https://github.com/mcolsen)",
+	"license": "MIT",
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"connect-session-knex": "^2.0.0",
+		"express": "^4.17.1",
+		"express-session": "^1.17.1",
+		"helmet": "^4.2.0",
+		"knex": "^0.21.13",
+		"knex-cleaner": "^1.3.1",
+		"sqlite3": "^5.0.0"
+	},
+	"devDependencies": {
+		"eslint": "^7.15.0",
+		"nodemon": "^2.0.6"
+	},
+	"scripts": {
+		"server": "nodemon index.js"
+	}
+}

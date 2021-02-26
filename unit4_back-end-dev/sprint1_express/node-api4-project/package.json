@@ -1,0 +1,19 @@
+{
+	"name": "node-api4-project",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "https://github.com/mcolsen/node-api4-project.git",
+	"author": "Maria Olsen (https://github.com/mcolsen)",
+	"license": "MIT",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"express": "^4.17.1"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.6"
+	},
+	"scripts": {
+		"start": "node index.js",
+		"server": "nodemon index.js"
+	}
+}
